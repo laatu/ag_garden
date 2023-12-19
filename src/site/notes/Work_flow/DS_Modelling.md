@@ -13,7 +13,7 @@ Home
 Using the context menu for a SAP Datasphere connection, you can
 
 - Skip the BO popup and try to insert datasource again, Local systems would appear, Right click and choose Create a new connection.
-	- Give URL - https://316f9128-56d6-4596-84b9-9bcfb2212cf9.us10.hcs.cloud.sap/ and of your choice give the description. -  [[Work_flow/DS_Modelling#^Connections\|Image1]]
+	- Give URL -[[Work_flow/Priv#Graybar_DS_URL\|link]] and of your choice give the description. -  [[Work_flow/DS_Modelling#^Connections\|Image1]]
 	- Double click on the system so it tries to connect, where you may give username and password. - [[Work_flow/DS_Modelling#^Login\|Image2]]
 - Choose Data--Source [[Data sphere - Analysis for Office#^Datasource-choosing\|(Image3)]] and drag the dimensions that are req. to see the below result.
 - File generated - [Graybar_DATASHPHERE_ANA.xlsx](file:///C:/Users/anujgarg8/Documents/GrayBar/Graybar_DATASHPHERE_ANA.xlsx) -- [Path](file:///C:/Users/anujgarg8/Documents/GrayBar/) <BR>
