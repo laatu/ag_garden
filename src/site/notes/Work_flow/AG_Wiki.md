@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/work-flow/ag-wiki/","tags":["Ds/AO","#Vercel_p","gardenEntry"]}
 ---
 
-# Home
+
 ## Managing SAP Datasphere connections
 
 ![AG_Wiki_20231220.png|220](/img/user/Images/AG_Wiki_20231220.png)
@@ -19,7 +19,7 @@ Using the context menu for a SAP Datasphere connection, you can
 
 
 ---
-### Images for reference
+## Images for reference
 ###### Choose Connection
 
 ![AG_Wiki_20231220-2.png](/img/user/Images/AG_Wiki_20231220-2.png)^Connections
