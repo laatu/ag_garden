@@ -2,9 +2,7 @@
 {"dg-publish":true,"permalink":"/work-flow/ds-ao/","tags":["Ds/AO","#Vercel_p","gardenEntry"]}
 ---
 
-Home 
-
-asd
+# Home
 ## Managing SAP Datasphere connections
 
 ![Ds-AO_20231219.png|220](/img/user/Images/Ds-AO_20231219.png)
