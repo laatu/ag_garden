@@ -18,17 +18,16 @@
 
 
 <br>
-
 #### The New Analytic Model - [link](https://learning.sap.com/learning-journey/explore-sap-datasphere/introducing-data-modeling-in-the-data-builder_c3a59257-4b17-4e46-b707-ce574a8cc66f)
 Serves as the analytical foundation for preparing data for consumption. 
 - Creation of multidimensional mutlti models for analytical purposes.
 - Predefined measures, hierarchies, filters, and associations for enhanced data exploration.
 - [Link](https://learning.sap.com/learning-journey/explore-sap-datasphere/introducing-data-modeling-in-the-data-builder_c3a59257-4b17-4e46-b707-ce574a8cc66f) - can use ==CDS View== as a source - making it's source a virtual.
-- 
-![DS_Modelling_20231220-7.png](/img/user/Images/DS_Modelling_20231220-7.png)
+![DS_Modelling_20231220-7.png|500](/img/user/Images/DS_Modelling_20231220-7.png)
 
 
-![DS_Modelling_20231220-8.png](/img/user/Images/DS_Modelling_20231220-8.png)
+![DS_Modelling_20231220-8.png|500](/img/user/Images/DS_Modelling_20231220-8.png)
+
 
 
 #### Remote Table
@@ -40,20 +39,25 @@ Serves as the analytical foundation for preparing data for consumption.
 
 #### Views
 -  When working on Views - there is an Option to persist the dataset is in view(graphical). - here utilizing the *Virtual* Remote table. #Ds/Persistency 
-	![DS_Modelling_20231220 2.png|270](/img/user/Images/DS_Modelling_20231220%202.png)
+	![DS_Modelling_20231220 2.png|200](/img/user/Images/DS_Modelling_20231220%202.png)
 
 #### SQL View
 - Either Standard SQl or SQL Script <sub>(table Function-return structure)</sub>
 - other persistence view things are same as before
-<br><br><br><br>
+<br><br>
+### Blogs
+- [One](https://blogs.sap.com/2023/04/17/sap-datasphere-analytic-model-series-using-variables-in-analytic-model/)
+
+
+<br><br>
 
 
 ---
 # Images for reference
 ###### Business-Builder-Image
-![DS_Modelling_20231220-9.png](/img/user/Images/DS_Modelling_20231220-9.png)
+![DS_Modelling_20231220-9.png|500](/img/user/Images/DS_Modelling_20231220-9.png)
 ###### Data-Builder-Image
 
-![DS_Modelling_20231220-10.png](/img/user/Images/DS_Modelling_20231220-10.png)
+![DS_Modelling_20231220-10.png|500](/img/user/Images/DS_Modelling_20231220-10.png)
 ###### Remote-Table=Snap-shoot-vs-realtime
 ![/Images/DS_Modelling_20231220 1.png|300](/img/user/Images/DS_Modelling_20231220%201.png)
