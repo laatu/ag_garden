@@ -16,8 +16,8 @@
 - Entity Relation Model ![Images/DS_Modelling_20231220.png|30](/img/user/Images/DS_Modelling_20231220.png), Intelligent Lookup ![DS_Modelling_20231220-6.png|30](/img/user/Images/DS_Modelling_20231220-6.png)
 
 
-
 <br>
+
 #### The New Analytic Model - [link](https://learning.sap.com/learning-journey/explore-sap-datasphere/introducing-data-modeling-in-the-data-builder_c3a59257-4b17-4e46-b707-ce574a8cc66f)
 Serves as the analytical foundation for preparing data for consumption. 
 - Creation of multidimensional mutlti models for analytical purposes.
