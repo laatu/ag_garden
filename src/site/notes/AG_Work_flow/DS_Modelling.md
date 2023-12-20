@@ -56,4 +56,4 @@ Serves as the analytical foundation for preparing data for consumption.
 
 ![DS_Modelling_20231220-10.png](/img/user/Images/DS_Modelling_20231220-10.png)
 ###### Remote-Table=Snap-shoot-vs-realtime
-![/Images/DS_Modelling_20231220 1.png](/img/user/Images/DS_Modelling_20231220%201.png)
+![/Images/DS_Modelling_20231220 1.png|300](/img/user/Images/DS_Modelling_20231220%201.png)
