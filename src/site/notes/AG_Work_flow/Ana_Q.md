@@ -4,13 +4,11 @@
 
 ## Questions
 
-[[AG_Work_flow/Ana_Q#Q1. AMDP vs CDS\|#Q1. AMDP vs CDS]] AMDP vs CDS :
+[[AG_Work_flow/Ana_Q#Q1. AMDP vs CDS\|#Q1. AMDP vs CDS]] **AMDP vs CDS :**
 [[AG_Work_flow/Ana_Q#Q2. Security\|#Q2. Security]] Discuss how security is managed in Embedded Analytics to ensure appropriate data access and user permissions.
 	- In terms of security and data privacy, how do you ensure compliance with industry standards and organizational policies when implementing Embedded Analytics solutions?
-
 [[AG_Work_flow/Ana_Q#Q3. Performance\|#Q3. Performance]] Share your experience and strategies for optimizing performance in Embedded Analytics, especially when dealing with extensive datasets.
 [[AG_Work_flow/Ana_Q#Q4. KPI\|#Q4. KPI]] KPI - High use of UI Annotations 
-
 [[AG_Work_flow/Ana_Q#Q5. Experience & Challenges\|#Q5. Experience & Challenges]] Describe a scenario where you *successfully implemented* real-time reporting using Embedded Analytics. What challenges did you face, and how did you overcome them?
 
 Q6.
@@ -73,7 +71,6 @@ Understanding the Challenge:
 	- For historical datasets, implementing data pruning and archiving strategies is essential. This ensures that only relevant and current data is part of analytical processes, preventing unnecessary load on the system.
 6. **Incremental Data Loading - external systems**
 	- Implementing mechanisms for incremental data loading reduces the amount of data processed during each analytics cycle. This is particularly effective when dealing with large datasets that don't change frequently.
-
 - Lessons Learned:
 	- **Balancing Act:**
 	    - Striking the right balance between data granularity and performance is crucial.
@@ -92,7 +89,6 @@ Defining and Using KPIs in Embedded Analytics, [ALP_YVideo](https://www.youtube.
    - Map KPIs to Core Data Services (CDS) Views, selecting attributes and measures.
 2. **Thresholds and Targets:**
    - Set acceptable thresholds and establish target values for KPIs.
-
 - Using KPIs for Measurement:
 1. **Visualization Techniques:**
    - Use charts and color coding to visually represent KPIs.
@@ -100,19 +96,15 @@ Defining and Using KPIs in Embedded Analytics, [ALP_YVideo](https://www.youtube.
    - Configure alerts triggered by KPI thresholds for real-time monitoring.
 3. **Historical Analysis:**
    - Analyze trends and compare KPI values with historical benchmarks.
-
 In summary, the process involves aligning business objectives with data models, integrating KPIs into Analytical Apps, and promoting a culture of continuous improvement through user training.
 
 #### Q5. Experience & Challenges
-
 1. **Fiori Analytical Apps Development:**
 	- Designed and developed Fiori Analytical Apps tailored to the manufacturing and supply chain domains. These apps provided a user-friendly interface for real-time reporting.
 2. **Smart Business Annotations:**
 	- Utilized Smart Business annotations within CDS Views to enable advanced analytics features, including predictive analytics and exception handling. ^[**`@SemanticBridge: ...`**]
 3. **User Adoption:** - **Challenge:** Overcoming resistance to change and ensuring users embraced real-time reporting.
 	- **Solution:** Engaged users early in the process, highlighting the benefits of instant insights and providing ongoing support and training.
-
-### Int 
 
 
 
