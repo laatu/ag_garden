@@ -1,6 +1,0 @@
-### Questions
-
-- CDS VS AMDP :
-  1. In AMDP, we can call one function inside the other, it is helpful in returning multiple result set on complex logics. Whereas, CDS is dedicated for single set of logic and return only one result set.
-  2. CDS views can be created to read and process data at DB layer. Whereas AMDP can be created to process and modify data at DB layer.
-  3. AMDP is used to work with stored procedures, which further go to HANA DB layer and execute that. This functionality can’t be achieved by Open SQL and CDS.
