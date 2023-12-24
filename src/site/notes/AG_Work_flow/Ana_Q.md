@@ -4,11 +4,7 @@
 
 ## Questions
 
-[id1]: ## "Streamlines data integration, simplifies reporting[Fiori and etc..] & supports consistent business logic across applications"
-[id2]: ## "This functionality can’t be achieved by Open SQL and CDS."
-
-
-[[AG_Work_flow/Ana_Q#Q1. AMDP vs CDS\|#Q1. AMDP vs CDS]] -AMDP vs CDS :
+[[AG_Work_flow/Ana_Q#Q1. AMDP vs CDS\|#Q1. AMDP vs CDS]] AMDP vs CDS :
 [[AG_Work_flow/Ana_Q#Q2. Security\|#Q2. Security]] Discuss how security is managed in Embedded Analytics to ensure appropriate data access and user permissions.
 	- In terms of security and data privacy, how do you ensure compliance with industry standards and organizational policies when implementing Embedded Analytics solutions?
 
@@ -30,20 +26,20 @@ Share your experience and strategies for optimizing performance in Embedded Anal
 ### Answers
 
 #### Q1. AMDP vs CDS :
-- CDS (Core Data Services) - Data Modeling and Simplification [Hover][id1] asfd^[checkthat]
+- CDS (Core Data Services) - Data Modeling and Simplification ^[Streamlines data integration, simplifies reporting(Fiori and etc..) & supports consistent business logic across applications]
   - AMDP (ABAP Managed Database Procedures): -  Code Pushdown and Performance Optimization
-1. *AMDP* - we can call one function inside the other, it is helpful in returning multiple result set on complex logics. Whereas, CDS is dedicated for single set of logic and return only one result set. [Hover][id2] 
+1. *AMDP* - we can call one function inside the other, it is helpful in returning multiple result set on complex logics. Whereas, CDS is dedicated for single set of logic and return only one result set. ^[This functionality can’t be achieved by Open SQL and CDS.]
 	  - Performance Improvement in Batch Processing
 2. *CDS*  - To read and process for reporting whereas AMDP is to process and modify data at DB layer.  
 
 
 
 #### Q2. Security
-In terms of security and data privacy, how do you ensure compliance with industry standards and organizational policies when implementing Embedded Analytics solutions?**
+In terms of security and data privacy, how do you ensure compliance with industry standards and organizational policies when implementing Embedded Analytics solutions?
  **CDS Views:**
 1. **Authorization Checks:**
     - `@AccessControl.authorizationCheck` annotations. Ensure that these checks align with the required security policies.
-4. **Field Level Security: orRole-Based Access Control (RBAC) **
+1. **Field Level Security: orRole-Based Access Control (RBAC)**
     - Leverage field-level security options provided by CDS Views to restrict access to specific fields based on user roles.
     - Enforce role-based access control for both CDS Views and AMDP. Define roles and assign them to users based on their responsibilities.
 
@@ -67,14 +63,6 @@ Understanding the Challenge:
 	- eliminating unnecessary joins and aggregations.
 	- thereby creating efficient and simplified data models thus streamlining the retrieval of relevant data for analytics.
 	- Performance tuning [[AG_Work_flow/Ana_Q#Prunning\|#Prunning]]
-
-
-
-
-
-Please note that the availability and behavior of these annotations
-
-Please note that the availability and behavior of these annotations may depend on the SAP HANA and ABAP versions.
 2. **Indexing and Partitioning:**
 	- Implementing proper indexing and partitioning strategies on database tables can have a substantial impact on query performance. I worked on optimizing database structures to facilitate faster data access.
 3. **Query Caching:**
@@ -123,20 +111,9 @@ In summary, the process involves aligning business objectives with data models, 
 	- Utilized Smart Business annotations within CDS Views to enable advanced analytics features, including predictive analytics and exception handling. ^[**`@SemanticBridge: ...`**]
 3. **User Adoption:** - **Challenge:** Overcoming resistance to change and ensuring users embraced real-time reporting.
 	- **Solution:** Engaged users early in the process, highlighting the benefits of instant insights and providing ongoing support and training.
-4. 
 
 ### Int 
 
-**What is the role of the Analytical Path Framework (APF) in Embedded Analytics?**
-	- Describe how APF enables the creation of guided analytics paths for users in SAP S/4HANA.
-**Explain the concept of KPIs (Key Performance Indicators) and their role in Embedded Analytics.**
-	- Discuss how KPIs are defined and used to measure the performance of business processes in Embedded Analytics.
-**What are the prerequisites for implementing Embedded Analytics in SAP S/4HANA?**
-	- Discuss the technical and functional requirements for setting up and utilizing Embedded Analytics in SAP S/4HANA.
-**Explain the role of SAP Fiori Elements in simplifying the development of analytical applications.**
-	- Describe how Fiori Elements streamline the development process and enhance the user experience in Embedded Analytics.
-**What are the security considerations for Embedded Analytics, especially in terms of data access and user roles?**
-	- Discuss how security is managed in Embedded Analytics to ensure appropriate data access and user permissions.
 
 
 #### Q2.Security
@@ -201,14 +178,3 @@ Implementation Strategies:
 	```
 
 
-
-
-
-Here is some text with a footnote.[^1]
-
-
-
-
-[^1]: This is the footnote content.
-
-[^Anno-Testing]: "**`@SmartDataGen: { ... }`**"
