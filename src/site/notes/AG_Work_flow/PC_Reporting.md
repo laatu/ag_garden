@@ -1,3 +1,7 @@
+---
+{"dg-publish":true,"permalink":"/ag-work-flow/pc-reporting/"}
+---
+
 
 - 📊 **Profit Center Overview:** [Web_Link](https://eursap.eu/2018/11/13/blog-sap-s4hana-profit-center-accounting/)
   - A **Profit Center** is a key organizational unit in SAP Controlling for internal control.
@@ -30,4 +34,3 @@
 - 📌 **Note:**
   - Conversion to SAP S/4HANA is preferred over fresh implementation for some businesses, but bad master data design poses challenges.
   - Correct Profit Center and Cost Center design is crucial for data quality, compliance, and seizing business opportunities.
-Summarized by https://chrome.google.com/webstore/detail/cbgecfllfhmmnknmamkejadjmnmpfjmp
