@@ -7,7 +7,7 @@
   
 - 🛠️ **Master Data Creation:**
   - **Profit Center Master Data** is defined based on criteria like geographical locations or product lines.
-  
+  - Creation options include Fiori Launchpad, SAP GUI, and the Migration Cockpit(LTMC) in SAP S/4HANA.
   
 - 🔄 **Data Flow and Assignment:**
   - Profit Centers are linked to account assignment objects like sales orders and cost centers.
