@@ -2,8 +2,6 @@
 {"dg-publish":true,"permalink":"/ag-work-flow/ds-modelling/","tags":["#Ds/Modelling"]}
 ---
 
-
-
 ### Business Builder
 - [[AG_Work_flow/DS_Modelling#Business-Builder-Image\|Ref. image]]
 - artifacts - 4 - Dimensions, Fact, Fact Model, Consumption Model
@@ -36,14 +34,20 @@ Serves as the analytical foundation for preparing data for consumption.
 3. Refresh Replication - will pull delta records if pressed.
 4. View Monitor
 - Filter Option
-
-#### Views
+1. #### Views
 -  When working on Views - there is an Option to persist the dataset is in view(graphical). - here utilizing the *Virtual* Remote table. #Ds/Persistency 
 	![DS_Modelling_20231220 2.png|200](/img/user/Images/DS_Modelling_20231220%202.png)
 
 #### SQL View
 - Either Standard SQl or SQL Script <sub>(table Function-return structure)</sub>
 - other persistence view things are same as before
+
+#### Replication Flow
+[id1]: ## "enabled for extraction (in ABAP-based SAP systems) "
+supported source - [Link](https://blogs.sap.com/2023/04/07/sap-datasphere-new-replication-flow/) :-
+- [CDS views #][id1]
+- Tables with a unique key (primary key)
+- Objects from ODP providers, such as extractors or SAP BW artifacts
 <br><br>
 ### Blogs
 - [One](https://blogs.sap.com/2023/04/17/sap-datasphere-analytic-model-series-using-variables-in-analytic-model/)
