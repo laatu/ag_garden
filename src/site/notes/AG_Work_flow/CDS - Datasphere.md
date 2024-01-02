@@ -9,6 +9,7 @@ C_Trialbalanceq0001
 ```
 
 
+- [[AG_Work_flow/Profit_Center_Actuals\|Profit_Center_Actuals]]
 
 - [Improved](https://blogs.sap.com/2021/07/27/creating-custom-cds-views-and-analytical-query-a-step-by-step-guide/) CDS dev - custom CDS Views and analytical Query in S4HANA CLOUD - 
 
