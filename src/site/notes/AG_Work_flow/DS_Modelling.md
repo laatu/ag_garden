@@ -18,7 +18,7 @@
 
 #### The New Analytic Model - [link](https://learning.sap.com/learning-journey/explore-sap-datasphere/introducing-data-modeling-in-the-data-builder_c3a59257-4b17-4e46-b707-ce574a8cc66f)
 Serves as the analytical foundation for preparing data for consumption. 
-- Creation of multidimensional mutlti models for analytical purposes.
+- Creation of multidimensional multi models for analytical purposes.
 - Predefined measures, hierarchies, filters, and associations for enhanced data exploration.
 - [Link](https://learning.sap.com/learning-journey/explore-sap-datasphere/introducing-data-modeling-in-the-data-builder_c3a59257-4b17-4e46-b707-ce574a8cc66f) - can use ==CDS View== as a source - making it's source a virtual.
 ![DS_Modelling_20231220-7.png|500](/img/user/Images/DS_Modelling_20231220-7.png)
@@ -38,6 +38,14 @@ Serves as the analytical foundation for preparing data for consumption.
 -  When working on Views - there is an Option to persist the dataset is in view(graphical). - here utilizing the *Virtual* Remote table. #Ds/Persistency 
 	![DS_Modelling_20231220 2.png|200](/img/user/Images/DS_Modelling_20231220%202.png)
 
+
+
+<img src="/Images/DS_Modelling_20231220 2.png" usemap="map_rect"> 
+
+<map name="map-rect"> 
+    <area shape="rect" coords="18,26,220,226" 
+        href="https://www.geeksforgeeks.org"/> 
+</map>
 #### SQL View
 - Either Standard SQl or SQL Script <sub>(table Function-return structure)</sub>
 - other persistence view things are same as before
