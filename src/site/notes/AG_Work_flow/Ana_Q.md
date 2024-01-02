@@ -4,10 +4,12 @@
 
 ## Questions
 
-[[AG_Work_flow/Ana_Q#Q1. AMDP vs CDS\|#Q1. AMDP vs CDS]] **AMDP vs CDS :**
+[Page Link](https://ag-garden.vercel.app/ag-work-flow/ana-q/)
+
+[[AG_Work_flow/Ana_Q#Q1. AMDP vs CDS\|#Q1. AMDP vs CDS]]
 [[AG_Work_flow/Ana_Q#Q2. Security\|#Q2. Security]] Discuss how security is managed in Embedded Analytics to ensure appropriate data access and user permissions.
 	- In terms of security and data privacy, how do you ensure compliance with industry standards and organizational policies when implementing Embedded Analytics solutions?
-[[AG_Work_flow/Ana_Q#Q3. Performance\|#Q3. Performance]] Share your experience and strategies for optimizing performance in Embedded Analytics, especially when dealing with extensive datasets.
+[[AG_Work_flow/Ana_Q#Q3. Performance\|#Q3. Performance]] Share your experience and strategies for optimizing performance in Embedded Analytics, especially when dealing with extensive datasets. - ❗ - more Annotations - 
 [[AG_Work_flow/Ana_Q#Q4. KPI\|#Q4. KPI]] KPI - High use of UI Annotations 
 [[AG_Work_flow/Ana_Q#Q5. Experience & Challenges\|#Q5. Experience & Challenges]] Describe a scenario where you *successfully implemented* real-time reporting using Embedded Analytics. What challenges did you face, and how did you overcome them?
 
@@ -24,6 +26,9 @@ Share your experience and strategies for optimizing performance in Embedded Anal
 ### Answers
 
 #### Q1. AMDP vs CDS :
+- Using AMDP we can manipulate the DB table data + mutilple table output whereas via CDS we can not change + only 1 table output - [example](https://answers.sap.com/questions/109280/amdp-with-mutliple-output-parameters.html)
+
+Extras
 - CDS (Core Data Services) - Data Modeling and Simplification ^[Streamlines data integration, simplifies reporting(Fiori and etc..) & supports consistent business logic across applications]
   - AMDP (ABAP Managed Database Procedures): -  Code Pushdown and Performance Optimization
 1. *AMDP* - we can call one function inside the other, it is helpful in returning multiple result set on complex logics. Whereas, CDS is dedicated for single set of logic and return only one result set. ^[This functionality can’t be achieved by Open SQL and CDS.]
@@ -37,7 +42,7 @@ In terms of security and data privacy, how do you ensure compliance with industr
  **CDS Views:**
 1. **Authorization Checks:**
     - `@AccessControl.authorizationCheck` annotations. Ensure that these checks align with the required security policies.
-1. **Field Level Security: orRole-Based Access Control (RBAC)**
+1. **Field Level Security: or Role-Based Access Control (RBAC)**
     - Leverage field-level security options provided by CDS Views to restrict access to specific fields based on user roles.
     - Enforce role-based access control for both CDS Views and AMDP. Define roles and assign them to users based on their responsibilities.
 
@@ -140,6 +145,7 @@ Implementation Strategies:
 ---
 
 #### Prunning
+[[AG_Work_flow/Ana_Q#Q3. Performance\|back]]
 - **`@SemanticBridge: ...`**
    The `@SemanticBridge` annotation enables you to define semantic bridges between elements. It may indirectly impact how data is pruned or aggregated in analytical scenarios.
 	```abap
