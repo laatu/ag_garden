@@ -18,6 +18,16 @@ Using the context menu for a SAP Datasphere connection, you can
 
 
 
+
+---
+#### Extra Information
+##### Consume Data in Microsoft Excel via an SAP Add-In - [Hyperlink - SAP Help](https://help.sap.com/docs/SAP_DATASPHERE/43509d67b8b84e66a30851e832f66911/ef6e226fc32e48a5b3655fdb1102c0d5.html)
+![Images/AG_Wiki_20240112.png|300](/img/user/Images/AG_Wiki_20240112.png)
+
+> *Analytical Dataset* - The workflow of consuming views with a semantic usage of Analytical Dataset in SAP Analytics Cloud and Microsoft Excel via live connection is now ***deprecated***.
+
+
+
 ---
 ## Images for reference
 
